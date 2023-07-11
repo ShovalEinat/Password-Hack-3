@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Hack 3</title>
+    <link rel="icon" type="image.png" href="siteLogo.png">
+</head>
+<body>  
+    <div id="background">
+        <h1 id="title">Password Hack</h1>
+        <h6 id="clue">When everyone is looking in one place, the magic happens somewhere else.</h6>
+        <h4 id="clue">Enter Password:</h4>
+
+        <input id="userPassInput" value="" type="password">
+        <input type="checkbox" onclick="showPass()">
+        <br><br><button id="check" onClick="checkPass()">Check Password</button>
+
+        <br><br><h1>3</h1>
+    </div>
+    
+    <style>
+
+    body {
+        background-color: rgb(61, 61, 61);
+        text-align: center;
+        font-size: 25px;
+        font-family:monospace;
+    }
+
+    #background {
+        margin: 200px auto;
+        background-color: #d4d4d4;
+        padding: 20px;
+        width: 500px;
+        height: 400px;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 20px 11px rgba(0, 0, 0, 0.2), 0px 0px 20px 0px black;
+        border: 4px 4px black;
+    }
+
+    #userPassInput{
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        border: white;
+        border-radius: 5px;
+    }
+
+    #check{
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-family:monospace;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #check:hover{
+        background-color: rgb(56, 56, 56);
+    }
+
+    #title{
+        margin: 10px auto;
+    }
+
+    #clue{
+        margin: 20px auto;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(2.5);
+        cursor: pointer;
+        background-color: red; /* Change this value to the desired background color */
+    }
+
+    </style>
+
+
+
+    <script>
+        function checkPassw() {
+            x = document.getElementById('userPasswordInput').value;
+            if (x == hrZAROXGVMaG + "4Sjk9vF3KgKf") {
+            alert("Nice you got the right password!");
+            window.location = "https://shovaleinat.github.io/";
+           }
+           else if(document.getElementById("userPassInput").value == ""){
+            alert("You need to type a password!");
+           }
+           else{
+            alert("The password is incorrect, try again.");
+            document.getElementById("userPassInput").value = "";
+           };
+        };
+
+        function showPass() {
+            var x = document.getElementById("userPassInput");
+            if (x.type === "password") {
+            x.type = "text";
+            } else {
+            x.type = "password";
+            }
+        }
+    let kX3TZRUQm9c6 = "hQxIqumj7Guw"
+    let hrZAROXGVMaG = kX3TZRUQm9c6;
+    </script>
+
+<script src="passwordHack3.js"></script>
+</body>
+</html>
