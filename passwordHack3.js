@@ -6,7 +6,7 @@ function checkPass() {
     x = document.getElementById('userPassInput').value;
     if (x == QsEpDIpZKc3q + "zN1x" + NBp0v17rc9P7) {
         alert("Nice you got the right password!");
-        window.location = "https://shovaleinat.github.io/Password-Hack-1";
+        window.location = "https://shovaleinat.github.io/Password-Hack-4";
        }
        else if(document.getElementById("userPassInput").value == ""){
         alert("You need to type a password!");
